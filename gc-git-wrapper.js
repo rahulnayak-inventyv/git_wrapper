@@ -50,7 +50,7 @@ const _push = function (workingDirPath, pushBranch = 'development') {
         });
     });
 }
-
+//heelll
 const _status = function (workingDirPath) {
     return new Promise((resolve, reject) => {
         let _git = require('simple-git')(workingDirPath);
